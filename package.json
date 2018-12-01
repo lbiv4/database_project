@@ -1,0 +1,16 @@
+{
+  "name": "grad_project",
+  "version": "0.0.1",
+  "description": "A project for CS 586",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "papaparse": "^4.6.1",
+    "pg": "^7.6.0"
+  }
+}
