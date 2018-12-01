@@ -1,0 +1,22 @@
+table {
+ border: 1px solid black;
+ overflow: auto;
+}
+
+tbody {
+ overflow: auto;
+}
+
+th {
+  background-color: #0000ff;
+  color: white;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+} 
