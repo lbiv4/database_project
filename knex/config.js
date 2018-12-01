@@ -4,7 +4,7 @@ module.exports = {
 	    connection: {
             host : 'localhost',
             user : process.env.DATABASE_USER || 'admin',
-            password : process.env.DATABASE_PASSWORD || 'ffadmin4372',
+            password : process.env.DATABASE_PASSWORD || '<redacted>',
             database : 'fantasy_football'
         }
     },
@@ -13,7 +13,7 @@ module.exports = {
 	    connection: {
             host : 'localhost',
             user : process.env.DATABASE_USER || 'admin',
-            password : process.env.DATABASE_PASSWORD || 'ffadmin4372',
+            password : process.env.DATABASE_PASSWORD || '<redacted>',
             database : 'fantasy_football'
         }
     },
